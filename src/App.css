@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Your custom styles below */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Terracotta Warm Palette */
+  --bg: #faf8f5;
+  --surface: #ffffff;
+  --border: #e0d5c8;
+  --border-dark: #c4a484;
+  --text-primary: #a08060;
+  --text-secondary: #b09070;
+  --text-muted: #c4b090;
+  --accent: #c4a484;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: "DM Sans", sans-serif;
+  min-height: 100vh;
+}
